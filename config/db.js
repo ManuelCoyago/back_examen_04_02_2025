@@ -1,7 +1,7 @@
 import mongoose  from "mongoose";
 export const conexion=async () =>{
    try{
-     await mongoose.connect("mongodb://localhost:27017/Fullstack");
+     await mongoose.connect("mongodb+srv://alexasalexc:5RotPBwi398VaLct@examen.0vob4.mongodb.net/?retryWrites=true&w=majority&appName=Examen");
      console.log ("Connected");
 
    }
